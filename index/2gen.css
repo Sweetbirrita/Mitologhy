@@ -1,0 +1,514 @@
+
+
+body {
+	background-color: #EDEAC1;
+	font-family: 'Nunito', sans-serif;
+	font-size: 15px;
+	
+}
+nav h1{
+	color:#49473C;
+	font-size: 33px;
+	margin-left: 40px;
+	top: 0px;
+	position: relative;
+	}
+
+
+header {
+	background: #EDEAD3;
+	height: 150px;
+	width: 100%;
+	top: 0px;
+	position: relative;
+	margin-bottom: -10px;
+	margin-left: 0;
+	border: solid 2px #B1AFA1
+}
+
+
+
+/* ------------------------------------- N A V  ----------------------------------------*/
+/* ------------------------------------- N A V  ----------------------------------------*/
+/* ------------------------------------- N A V  ----------------------------------------*/
+/* ------------------------------------- N A V  ----------------------------------------*/
+/* ------------------------------------- N A V  ----------------------------------------*/
+/* ------------------------------------- N A V  ----------------------------------------*/
+
+
+
+.nav_container {
+	height: 40px;
+	bottom: -20px
+}
+
+.nav-item {
+	background-color: #EDEAC1;
+	display: inline-block;
+	padding: 10px 20px;
+	margin-right: 5px;
+	margin-bottom: 30px;
+	border: solid 2px #B1AFA1;
+
+	
+}
+
+
+.nav-item:hover {
+	background-color: #B1AFA1;
+}
+
+.nav-item  a{
+	text-decoration: none;
+	color: #000
+}
+.nav-item a:hover {
+	color: white;
+}
+
+.down {
+	margin-left: 8px;
+	position: relative;
+
+}
+
+
+	/* ------------------------------------- S U B M E N U  ----------------------------------------*/
+	/* ------------------------------------- S U B M E N U  ----------------------------------------*/
+	/* ------------------------------------- S U B M E N U  ----------------------------------------*/
+	/* ------------------------------------- S U B M E N U  ----------------------------------------*/
+.submenu {
+	position: absolute;
+	opacity: 0;
+	width: 6%;
+	height: auto;
+	z-index: 1;
+	display: none;
+
+}
+
+
+
+
+.submenu  li {
+	left: -37px;
+	position: relative;
+	padding: 10px 20px;
+	border-bottom: 2px solid black ;
+	width: 100%;
+	list-style: none;
+	height: auto;
+	margin-top: 5px;
+	background-color: #EDEAC1;
+	border: 1px solid #000;
+	font-size: 14px;
+
+
+
+	/* list-style:none; saca los circulos de li*/
+}
+
+.submenu li a {
+	position: relative;
+	right: 28px;
+	margin-left: 20px;
+	margin-top: 20px;
+	color: #000;
+	font-size: 12px;
+
+
+}
+
+.submenu a{
+	margin-top: 20px;
+}
+
+
+
+.nav_container li:hover > .submenu {	
+	color:#fff;
+	left: 125px;
+	transition: all 1s;
+	opacity:1;
+	width: 4.5%;
+	display: block;
+	margin-top: 10px
+			}
+
+.submenu li:hover {
+	background-color: #B1AFA1;
+}
+
+.nav_container li:hover> .submenu_heroes {
+	left: 240px;
+	margin-top: 5px;
+	transition: all 1s;
+	opacity: 1;
+	color:white;
+	margin-top: 10px
+			} 
+
+.nav_container li:hover> .submenu_arbol {
+	left: 610px;
+	margin-top: 5px;
+	transition: all 1s;
+	opacity: 1;
+	color:white;
+	width: 130px;
+	margin-left: -40px;
+	margin-top: 10px
+			} 
+
+
+.nav_container li:hover> .submenu_bestias {
+	left: 380px;
+	margin-top: 5px;
+	transition: all 1s;	opacity: 1;
+	color:white;
+	width: 150px;
+	margin-left: -18px;
+	margin-top: 10px
+			} 
+
+
+
+
+
+
+/* ----------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+----------------------
+
+.nav_container li:hover > .submenu {
+	display: block;	
+	transition: 3s
+	----------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+----------------------
+ */
+
+
+
+ /* ------------------------------------- M A I N  ----------------------------------------*/
+ /* ------------------------------------- M A I N  ----------------------------------------*/ 
+ /* ------------------------------------- M A I N  --------------------------------------s*/
+
+.main-section {
+	display: flex;
+	margin-top: 30px;
+	margin-right: -20px
+}
+
+.main{
+	background-color: #EDEAD3;
+	height: 100%;
+	width: 70%;
+	margin-left: 10px;
+	margin-right: 0;
+	border: solid 1px #B1AFA1
+}
+.main-section h1, h2 {
+	font-size: 30px;
+	margin-left: 30px;
+
+}
+
+.main-section p {
+	font-size: 18px;
+	margin:auto;
+	font-weight:500;
+	padding: 5px;
+	color: #113;
+	margin-left: 10px
+}
+
+
+.img1 {
+	width: 750px;
+	height: 400px;
+	margin-left: 80px;
+	margin-right: 10px;
+	
+}
+
+.main h1 {
+	text-decoration: underline;
+}
+
+.main h2 {
+	text-decoration: underline;
+	margin-left: 10px;
+}
+
+/* ------------------------------------- G A L L E R Y  ----------------------------------------*/
+ /* ------------------------------------- G A L L E R Y  ----------------------------------------*/ 
+
+
+
+.gallery_subitems {
+	margin-left: 30px
+}
+.gallery_subitems h2 {
+	margin-left: 200px;
+	margin-top: 20px;
+}
+
+.gallery-item p {
+	margin-left: -10px;
+	padding: 1em;
+	margin-top: -15px
+}
+
+.gallery_container {
+	display: grid;
+	grid-template-columns: 450px 450px  ;
+	grid-template-rows: 350px 350px 350px 350px;
+	grid-gap: 20px;
+	width: 100%;
+	margin: 40px auto;
+	max-height: 1800px;
+}
+
+.gallery-item .urano {
+	width: 
+}
+
+.gallery-item{
+	float:none;
+	width: 100%;
+	margin-left: 10px;
+	margin-right: 50px;
+	margin-top: 20px;
+	height: 100%;
+	margin-bottom: 40px;
+	background-color: #fff;
+}
+
+.gallery-img {
+	width: 450px;
+	height: 300px;
+	object-fit: cover;
+}
+
+.gallery-item:hover {
+	opacity: 0.5;
+	transition: 1s;
+
+}
+
+
+.gallery-item:first-child {
+	
+	
+}
+
+.gallery-item p{
+	font-size: 18px;
+}
+
+
+
+
+
+ /* ------------------------------------- A S I D E  ----------------------------------------*/
+ /* ------------------------------------- A S I D E  ----------------------------------------*/ 
+ /* ------------------------------------- A S I D E  ----------------------------------------*/
+.main-aside{
+	background-color: #EDEAD3;
+	height: 100%;
+	min-height: 1100px;
+	max-height: 2500px;
+	width: 27%;
+	display: flex;
+	flex-direction: column;
+	object-fit: fill;
+	border: solid 1px #B1AFA1;
+	right: 0px;
+	margin-left: 10px
+}
+.main-aside h2 {
+	margin-left: 20px;
+	font-size: 30px;
+	text-decoration: underline;
+}
+
+.main-aside p{
+	text-decoration: underline;
+
+}
+
+.article1 {
+	width: 300px;
+	height: 150px;
+	justify-content: center;
+	margin-left: 25px;
+	margin-top: 0px;
+}
+
+.article1 p {
+	margin-left: -5px;
+}
+.article1 img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border:outset black;
+
+}
+.article2 {
+	width: 300px;
+	height: 150px;
+	justify-content: center;
+	margin-left: 25px;
+	margin-top: 50px;
+}
+
+.article1 p {
+	margin-left: -5px;
+}
+
+.article2 img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border:outset black;
+	
+}
+
+.article3 {
+	width: 300px;
+	height: 150px;
+	justify-content: center;
+	flex-flow: column wrap;
+	margin-left: 25px;
+	margin-top:50px;
+}
+
+.article3 p {
+	margin-left: -5px;
+}
+.article3 img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border:outset black;
+
+}
+.article4 {
+	width: 300px;
+	height: 150px;
+	justify-content: center;
+	flex-flow: column wrap;
+	margin-left: 25px;
+	margin-top:50px;
+}
+
+.article4 p {
+	margin-left: -5px;
+}
+.article4 img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border:outset black;
+
+}
+.article5 {
+	width: 300px;
+	height: 150px;
+	justify-content: center;
+	flex-flow: column wrap;
+	margin-left: 25px;
+	margin-top:50px;
+}
+
+.article5 p {
+	margin-left: -5px;
+}
+.article5 img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border:outset black;
+
+}
+
+.article1 img:hover{
+	opacity: 0.5;
+	transition: 1s
+}
+.article2 img:hover{
+	opacity: 0.5;
+	transition: 1s
+}
+.article3 img:hover{
+	opacity: 0.5;
+	transition: 1s
+}
+.article4 img:hover{
+	opacity: 0.5;
+	transition: 1s
+}
+.article5 img:hover{
+	opacity: 0.5;
+	transition: 1s
+}
+
+
+
+
+		/* ------------------------------------- F O O T E R  ----------------------------------------*/
+		/* ------------------------------------- F O O T E R  ----------------------------------------*/
+		/* ------------------------------------- F O O T E R  ----------------------------------------*/
+
+footer {
+	background-color: #EDEAD3;
+	height: 80px;
+	width: 100%;
+	margin: 20px auto;
+
+}
+
+.info {
+	width: 500px;
+	position: relative;
+	margin-top: 50px;
+	margin-left: 60px;
+	font-size: 14px
+}
+
+footer {
+	display: flex;
+	border: solid 1px #B1AFA1;
+}
+
+.redes{ 
+	width: 400px;
+	height:80px;
+	margin-left: 350px;
+	display: flex;
+	}
+.redes i{
+	color: #997;
+}
+
+.fbfot {
+			font-size: 40px;
+			margin-left: 20px;
+			margin-top: 15px;
+			position: relative;
+	}
+
+.twfot {
+			font-size: 40px;
+			text-decoration: none;
+			margin-left: 70px;
+			margin-top: 15px;			
+	}
+
+.ytfot {
+			font-size: 40px;
+			text-decoration: none;
+			margin-left: 70px;
+			margin-top: 15px;	
+	}
